@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 非名榭 - 墨问非名的站点</title>
+    <link>https://anywaywillgo.github.io/categories/markdown/</link>
+    <description>Recent content in Markdown on 非名榭 - 墨问非名的站点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 30 May 2018 21:18:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://anywaywillgo.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to StackEdit</title>
+      <link>https://anywaywillgo.github.io/post/writing/markdown/welcome-to-stackedit/</link>
+      <pubDate>Wed, 30 May 2018 21:18:02 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/writing/markdown/welcome-to-stackedit/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-stackedit&#34;&gt;Welcome to StackEdit!&lt;/h1&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Hi! I&amp;rsquo;m your first Markdown file in &lt;strong&gt;StackEdit&lt;/strong&gt;. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. If you have finished with me, you can just create new files by opening the &lt;strong&gt;file explorer&lt;/strong&gt; on the left corner of the navigation bar.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>欢迎使用 Cmd Markdown 编辑阅读器</title>
+      <link>https://anywaywillgo.github.io/post/writing/markdown/welcome-to-cmd-markdown/</link>
+      <pubDate>Mon, 30 Apr 2018 21:18:02 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/writing/markdown/welcome-to-cmd-markdown/</guid>
+      <description>&lt;h1 id=&#34;欢迎使用-cmd-markdown-编辑阅读器&#34;&gt;欢迎使用 Cmd Markdown 编辑阅读器&lt;/h1&gt;
+
+&lt;!-- more --&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，&lt;strong&gt;Cmd Markdown&lt;/strong&gt; 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

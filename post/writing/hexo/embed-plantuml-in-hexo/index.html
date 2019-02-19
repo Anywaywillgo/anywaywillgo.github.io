@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>在Hexo博客中使用PlantUML来画UML - 非名榭 - 墨问非名的站点</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="墨问非名" /><meta name="description" content="使用PlantUML来画UML " /><meta name="keywords" content="墨问非名, 非名榭" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.54.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://anywaywillgo.github.io/post/writing/hexo/embed-plantuml-in-hexo/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="在Hexo博客中使用PlantUML来画UML" />
+<meta property="og:description" content="使用PlantUML来画UML
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://anywaywillgo.github.io/post/writing/hexo/embed-plantuml-in-hexo/" />
+<meta property="article:published_time" content="2018-06-28T21:18:02&#43;08:00"/>
+<meta property="article:modified_time" content="2018-06-28T21:18:02&#43;08:00"/>
+
+<meta itemprop="name" content="在Hexo博客中使用PlantUML来画UML">
+<meta itemprop="description" content="使用PlantUML来画UML
+
+">
+
+
+<meta itemprop="datePublished" content="2018-06-28T21:18:02&#43;08:00" />
+<meta itemprop="dateModified" content="2018-06-28T21:18:02&#43;08:00" />
+<meta itemprop="wordCount" content="1547">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="在Hexo博客中使用PlantUML来画UML"/>
+<meta name="twitter:description" content="使用PlantUML来画UML
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">非名榭</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">非名榭</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">在Hexo博客中使用PlantUML来画UML</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-06-28 </span>
+        <div class="post-category">
+            <a href="/categories/writing/"> Writing </a>
+            <a href="/categories/hexo/"> Hexo </a>
+            </div>
+          <span class="more-meta"> 约 1547 字 </span>
+          <span class="more-meta"> 预计阅读 4 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#使用plantuml来画uml">使用PlantUML来画UML</a></li>
+<li><a href="#参考">参考</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="使用plantuml来画uml">使用PlantUML来画UML</h2>
+
+<!-- more -->
+
+<p>图像：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml">start
+:配置Java环境; 
+:下载pantuml.jar;
+:编写描述文件; 
+:执行; 
+stop</code></pre></td></tr></table>
+</div>
+</div>
+<p>源码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">start<span class="err">
+</span><span class="err"></span>:配置Java环境; <span class="err">
+</span><span class="err"></span>:下载pantuml.jar;<span class="err">
+</span><span class="err"></span>:编写描述文件; <span class="err">
+</span><span class="err"></span>:执行; <span class="err">
+</span><span class="err"></span>stop</code></pre></td></tr></table>
+</div>
+</div>
+<p>图像：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml">Alice -&gt; Bob: Authentication Request
+Bob --&gt; Alice: Authentication Response
+Alice -&gt; Bob: Another authentication Request
+Alice &lt;-- Bob: another authentication Response</code></pre></td></tr></table>
+</div>
+</div>
+<p>源码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">Alice -&gt; Bob: Authentication Request<span class="err">
+</span><span class="err"></span>Bob --&gt; Alice: Authentication Response<span class="err">
+</span><span class="err"></span>Alice -&gt; Bob: Another authentication Request<span class="err">
+</span><span class="err"></span>Alice &lt;-- Bob: another authentication Response</code></pre></td></tr></table>
+</div>
+</div>
+<p>图像：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml">participant par
+actor act
+boundary bou
+control con
+entity ent
+database dat
+
+par-&gt;act : to actor
+par-&gt;bou : to  boundary
+par-&gt;con : to control
+par-&gt;ent : to entity
+par-&gt;dat : to database</code></pre></td></tr></table>
+</div>
+</div>
+<p>源码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">participant par<span class="err">
+</span><span class="err"></span>actor act<span class="err">
+</span><span class="err"></span>boundary bou<span class="err">
+</span><span class="err"></span>control con<span class="err">
+</span><span class="err"></span>entity ent<span class="err">
+</span><span class="err"></span>database dat<span class="err">
+</span><span class="err">
+</span><span class="err"></span>par-&gt;act : to actor<span class="err">
+</span><span class="err"></span>par-&gt;bou : to  boundary<span class="err">
+</span><span class="err"></span>par-&gt;con : to control<span class="err">
+</span><span class="err"></span>par-&gt;ent : to entity<span class="err">
+</span><span class="err"></span>par-&gt;dat : to database</code></pre></td></tr></table>
+</div>
+</div>
+<p>图像：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml">participant &#34;我是很长的一段话，如果要用我来表达的话，就太长了吧！&#34; as par
+actor act #FF0000
+boundary bou #00FF00
+control con #0000FF
+entity ent #FFFF00
+database dat #00FFFF
+
+par-&gt;act : to actor
+par-&gt;bou : to  boundary
+par-&gt;con : to control
+par-&gt;ent : to entity
+par-&gt;dat : to database</code></pre></td></tr></table>
+</div>
+</div>
+<p>源码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">participant &#34;我是很长的一段话，如果要用我来表达的话，就太长了吧！&#34; as par<span class="err">
+</span><span class="err"></span>actor act <span class="gh">#</span>FF0000
+boundary bou <span class="gh">#</span>00FF00
+control con <span class="gh">#</span>0000FF
+entity ent <span class="gh">#</span>FFFF00
+database dat <span class="gh">#</span>00FFFF
+<span class="err">
+</span><span class="err"></span>par-&gt;act : to actor<span class="err">
+</span><span class="err"></span>par-&gt;bou : to  boundary<span class="err">
+</span><span class="err"></span>par-&gt;con : to control<span class="err">
+</span><span class="err"></span>par-&gt;ent : to entity<span class="err">
+</span><span class="err"></span>par-&gt;dat : to database</code></pre></td></tr></table>
+</div>
+</div>
+<p>图像：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml"><span class="kn">package</span> <span class="nx">org</span><span class="p">.</span><span class="nx">nju</span><span class="p">.</span><span class="nx">dislab</span><span class="p">.</span><span class="nx">uml</span><span class="p">{</span>
+    <span class="nx">class</span> <span class="nx">TestA</span> <span class="p">{</span>
+        <span class="o">-</span><span class="nx">String</span> <span class="nx">name</span>
+        <span class="o">+</span><span class="kt">int</span> <span class="nx">id</span>
+    <span class="p">}</span>
+
+    <span class="nx">class</span> <span class="nx">TestB</span> <span class="nx">extends</span> <span class="nx">TestA</span><span class="p">{</span>
+        <span class="o">-</span><span class="nx">String</span> <span class="nx">desc</span>
+        <span class="o">+</span><span class="nx">String</span> <span class="nf">getDesc</span><span class="p">()</span>
+        <span class="o">+</span><span class="nx">void</span> <span class="nf">setDesc</span><span class="p">(</span><span class="nx">String</span> <span class="nx">desc</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>源码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">package org.nju.dislab.uml{<span class="err">
+</span><span class="err"></span>    class TestA {<span class="err">
+</span><span class="err"></span>        -String name<span class="err">
+</span><span class="err"></span>        +int id<span class="err">
+</span><span class="err"></span>    }<span class="err">
+</span><span class="err">
+</span><span class="err"></span>    class TestB extends TestA{<span class="err">
+</span><span class="err"></span>        -String desc<span class="err">
+</span><span class="err"></span>        +String getDesc()<span class="err">
+</span><span class="err"></span>        +void setDesc(String desc)<span class="err">
+</span><span class="err"></span>    }<span class="err">
+</span><span class="err"></span>}</code></pre></td></tr></table>
+</div>
+</div>
+<p>图像：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-puml" data-lang="puml">xearth
+ 61.17 -150.00 &#34;Anchorage&#34;           # Alaska, USA
+ 38.00   23.73 &#34;Athens&#34;              # Greece
+ 33.4    44.4  &#34;Baghdad&#34;             # Iraq
+ 13.73  100.50 &#34;Bangkok&#34;             # Thailand
+ 39.92  116.43 &#34;Beijing&#34;             # China
+ 52.53   13.42 &#34;Berlin&#34;              # Germany
+ 32.3   -64.7  &#34;Bermuda&#34;             # Bermuda
+ 42.33  -71.08 &#34;Boston&#34;              # Massachusetts, USA
+-15.8   -47.9  &#34;Brasilia&#34;            # Brazil
+ -4.2    15.3  &#34;Brazzaville&#34;         # Congo
+-34.67  -58.50 &#34;Buenos Aires&#34;        # Argentina
+ 31.05   31.25 &#34;Cairo&#34;               # Egypt
+ 22.5    88.3  &#34;Calcutta&#34;            # India
+-33.93   18.47 &#34;Cape Town&#34;           # South Africa
+ 33.6    -7.6  &#34;Casablanca&#34;          # Morocco (Rabat?)
+ 41.83  -87.75 &#34;Chicago&#34;             # Illinois, USA
+ 32.78  -96.80 &#34;Dallas&#34;              # Texas, USA
+ 28.63   77.20 &#34;New Delhi&#34;           # India
+ 39.75 -105.00 &#34;Denver&#34;              # Colorado, USA
+ 24.23   55.28 &#34;Dubai&#34;               # UAE (Abu Dhabi?)
+-27.1  -109.4  &#34;Easter Island&#34;       # Easter Island
+-18.0   178.1  &#34;Fiji&#34;                # Fiji
+ 13.5   144.8  &#34;Guam&#34;                # Guam
+ 60.13   25.00 &#34;Helsinki&#34;            # Finland
+ 22.2   114.1  &#34;Hong Kong&#34;           # Hong Kong
+ 21.32 -157.83 &#34;Honolulu&#34;            # Hawaii, USA
+ 52.2   104.3  &#34;Irkutsk&#34;             # Irkutsk, Russia
+ 41.0    29.0  &#34;Istanbul&#34;            # Turkey (Ankara?)
+ -6.13  106.75 &#34;Jakarta&#34;             # Indonesia
+ 31.8    35.2  &#34;Jerusalem&#34;           # Israel
+ 34.5    69.2  &#34;Kabul&#34;               # Afghanistan
+ 27.7    85.3  &#34;Kathmandu&#34;           # Nepal
+ 50.4    30.5  &#34;Kiev&#34;                # Ukraine
+  3.13  101.70 &#34;Kuala Lumpur&#34;        # Malaysia
+  6.45    3.47 &#34;Lagos&#34;               # Nigeria
+-12.10  -77.05 &#34;Lima&#34;                # Peru
+ 51.50   -0.17 &#34;London&#34;              # United Kingdom
+ 40.42   -3.72 &#34;Madrid&#34;              # Spain
+ 14.6   121.0  &#34;Manila&#34;              # The Phillipines
+ 21.5    39.8  &#34;Mecca&#34;               # Saudi Arabia
+ 19.4   -99.1  &#34;Mexico City&#34;         # Mexico
+ 25.8   -80.2  &#34;Miami&#34;               # Florida, USA
+  6.2   -10.8  &#34;Monrovia&#34;            # Liberia
+ 45.5   -73.5  &#34;Montreal&#34;            # Quebec, Canada
+ 55.75   37.70 &#34;Moscow&#34;              # Russia
+ -1.28   36.83 &#34;Nairobi&#34;             # Kenya
+ 59.93   10.75 &#34;Oslo&#34;                # Norway
+ 48.87    2.33 &#34;Paris&#34;               # France
+-32.0   115.9  &#34;Perth&#34;               # Australia
+ 45.5  -122.5  &#34;Portland&#34;            # Oregon, USA
+ -0.2   -78.5  &#34;Quito&#34;               # Ecuador
+ 64.15  -21.97 &#34;Reykjavik&#34;           # Iceland
+-22.88  -43.28 &#34;Rio de Janeiro&#34;      # Brazil
+ 41.88   12.50 &#34;Rome&#34;                # Italy
+ 11.0   106.7  &#34;Ho Chi Minh City&#34;    # Vietnam (Hanoi?)
+ 37.75 -122.45 &#34;San Francisco&#34;       # California, USA
+  9.98  -84.07 &#34;San Jose&#34;            # Costa Rica
+ 18.5   -66.1  &#34;San Juan&#34;            # Puerto Rico
+-33.5   -70.7  &#34;Santiago&#34;            # Chile
+  1.2   103.9  &#34;Singapore&#34;           # Singapore
+ 42.67   23.30 &#34;Sofia&#34;               # Bulgaria
+ 59.33   18.08 &#34;Stockholm&#34;           # Sweden
+-33.92  151.17 &#34;Sydney&#34;              # Australia
+-17.6  -149.5  &#34;Tahiti&#34;              # Tahiti
+ 16.8    -3.0  &#34;Timbuktu&#34;            # Mali (Bamako?)
+ 35.67  139.75 &#34;Tokyo&#34;               # Japan
+ 43.70  -79.42 &#34;Toronto&#34;             # Ontario, Canada
+ 32.9    13.2  &#34;Tripoli&#34;             # Libya
+ 47.9   106.9  &#34;Ulan Bator&#34;          # Mongolia
+ 49.22 -123.10 &#34;Vancouver&#34;           # B.C., Canada
+ 48.22   16.37 &#34;Vienna&#34;              # Austria
+ 38.9   -77.0  &#34;Washington&#34;          # United States
+-41.28  174.78 &#34;Wellington&#34;          # New Zealand
+ 62.5  -114.3  &#34;Yellowknife&#34;         # N.T., Canada
+ 90.00    0.00 &#34;North Pole&#34;          # North Pole
+-90.00    0.00 &#34;South Pole&#34;          # South Pole</code></pre></td></tr></table>
+</div>
+</div>
+<p>源码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">xearth<span class="err">
+</span><span class="err"></span> 61.17 -150.00 &#34;Anchorage&#34;           <span class="gh">#</span> Alaska, USA
+ 38.00   23.73 &#34;Athens&#34;              <span class="gh">#</span> Greece
+ 33.4    44.4  &#34;Baghdad&#34;             <span class="gh">#</span> Iraq
+ 13.73  100.50 &#34;Bangkok&#34;             <span class="gh">#</span> Thailand
+ 39.92  116.43 &#34;Beijing&#34;             <span class="gh">#</span> China
+ 52.53   13.42 &#34;Berlin&#34;              <span class="gh">#</span> Germany
+ 32.3   -64.7  &#34;Bermuda&#34;             <span class="gh">#</span> Bermuda
+ 42.33  -71.08 &#34;Boston&#34;              <span class="gh">#</span> Massachusetts, USA
+-15.8   -47.9  &#34;Brasilia&#34;            <span class="gh">#</span> Brazil
+ -4.2    15.3  &#34;Brazzaville&#34;         <span class="gh">#</span> Congo
+-34.67  -58.50 &#34;Buenos Aires&#34;        <span class="gh">#</span> Argentina
+ 31.05   31.25 &#34;Cairo&#34;               <span class="gh">#</span> Egypt
+ 22.5    88.3  &#34;Calcutta&#34;            <span class="gh">#</span> India
+-33.93   18.47 &#34;Cape Town&#34;           <span class="gh">#</span> South Africa
+ 33.6    -7.6  &#34;Casablanca&#34;          <span class="gh">#</span> Morocco (Rabat?)
+ 41.83  -87.75 &#34;Chicago&#34;             <span class="gh">#</span> Illinois, USA
+ 32.78  -96.80 &#34;Dallas&#34;              <span class="gh">#</span> Texas, USA
+ 28.63   77.20 &#34;New Delhi&#34;           <span class="gh">#</span> India
+ 39.75 -105.00 &#34;Denver&#34;              <span class="gh">#</span> Colorado, USA
+ 24.23   55.28 &#34;Dubai&#34;               <span class="gh">#</span> UAE (Abu Dhabi?)
+-27.1  -109.4  &#34;Easter Island&#34;       <span class="gh">#</span> Easter Island
+-18.0   178.1  &#34;Fiji&#34;                <span class="gh">#</span> Fiji
+ 13.5   144.8  &#34;Guam&#34;                <span class="gh">#</span> Guam
+ 60.13   25.00 &#34;Helsinki&#34;            <span class="gh">#</span> Finland
+ 22.2   114.1  &#34;Hong Kong&#34;           <span class="gh">#</span> Hong Kong
+ 21.32 -157.83 &#34;Honolulu&#34;            <span class="gh">#</span> Hawaii, USA
+ 52.2   104.3  &#34;Irkutsk&#34;             <span class="gh">#</span> Irkutsk, Russia
+ 41.0    29.0  &#34;Istanbul&#34;            <span class="gh">#</span> Turkey (Ankara?)
+ -6.13  106.75 &#34;Jakarta&#34;             <span class="gh">#</span> Indonesia
+ 31.8    35.2  &#34;Jerusalem&#34;           <span class="gh">#</span> Israel
+ 34.5    69.2  &#34;Kabul&#34;               <span class="gh">#</span> Afghanistan
+ 27.7    85.3  &#34;Kathmandu&#34;           <span class="gh">#</span> Nepal
+ 50.4    30.5  &#34;Kiev&#34;                <span class="gh">#</span> Ukraine
+  3.13  101.70 &#34;Kuala Lumpur&#34;        <span class="gh">#</span> Malaysia
+  6.45    3.47 &#34;Lagos&#34;               <span class="gh">#</span> Nigeria
+-12.10  -77.05 &#34;Lima&#34;                <span class="gh">#</span> Peru
+ 51.50   -0.17 &#34;London&#34;              <span class="gh">#</span> United Kingdom
+ 40.42   -3.72 &#34;Madrid&#34;              <span class="gh">#</span> Spain
+ 14.6   121.0  &#34;Manila&#34;              <span class="gh">#</span> The Phillipines
+ 21.5    39.8  &#34;Mecca&#34;               <span class="gh">#</span> Saudi Arabia
+ 19.4   -99.1  &#34;Mexico City&#34;         <span class="gh">#</span> Mexico
+ 25.8   -80.2  &#34;Miami&#34;               <span class="gh">#</span> Florida, USA
+  6.2   -10.8  &#34;Monrovia&#34;            <span class="gh">#</span> Liberia
+ 45.5   -73.5  &#34;Montreal&#34;            <span class="gh">#</span> Quebec, Canada
+ 55.75   37.70 &#34;Moscow&#34;              <span class="gh">#</span> Russia
+ -1.28   36.83 &#34;Nairobi&#34;             <span class="gh">#</span> Kenya
+ 59.93   10.75 &#34;Oslo&#34;                <span class="gh">#</span> Norway
+ 48.87    2.33 &#34;Paris&#34;               <span class="gh">#</span> France
+-32.0   115.9  &#34;Perth&#34;               <span class="gh">#</span> Australia
+ 45.5  -122.5  &#34;Portland&#34;            <span class="gh">#</span> Oregon, USA
+ -0.2   -78.5  &#34;Quito&#34;               <span class="gh">#</span> Ecuador
+ 64.15  -21.97 &#34;Reykjavik&#34;           <span class="gh">#</span> Iceland
+-22.88  -43.28 &#34;Rio de Janeiro&#34;      <span class="gh">#</span> Brazil
+ 41.88   12.50 &#34;Rome&#34;                <span class="gh">#</span> Italy
+ 11.0   106.7  &#34;Ho Chi Minh City&#34;    <span class="gh">#</span> Vietnam (Hanoi?)
+ 37.75 -122.45 &#34;San Francisco&#34;       <span class="gh">#</span> California, USA
+  9.98  -84.07 &#34;San Jose&#34;            <span class="gh">#</span> Costa Rica
+ 18.5   -66.1  &#34;San Juan&#34;            <span class="gh">#</span> Puerto Rico
+-33.5   -70.7  &#34;Santiago&#34;            <span class="gh">#</span> Chile
+  1.2   103.9  &#34;Singapore&#34;           <span class="gh">#</span> Singapore
+ 42.67   23.30 &#34;Sofia&#34;               <span class="gh">#</span> Bulgaria
+ 59.33   18.08 &#34;Stockholm&#34;           <span class="gh">#</span> Sweden
+-33.92  151.17 &#34;Sydney&#34;              <span class="gh">#</span> Australia
+-17.6  -149.5  &#34;Tahiti&#34;              <span class="gh">#</span> Tahiti
+ 16.8    -3.0  &#34;Timbuktu&#34;            <span class="gh">#</span> Mali (Bamako?)
+ 35.67  139.75 &#34;Tokyo&#34;               <span class="gh">#</span> Japan
+ 43.70  -79.42 &#34;Toronto&#34;             <span class="gh">#</span> Ontario, Canada
+ 32.9    13.2  &#34;Tripoli&#34;             <span class="gh">#</span> Libya
+ 47.9   106.9  &#34;Ulan Bator&#34;          <span class="gh">#</span> Mongolia
+ 49.22 -123.10 &#34;Vancouver&#34;           <span class="gh">#</span> B.C., Canada
+ 48.22   16.37 &#34;Vienna&#34;              <span class="gh">#</span> Austria
+ 38.9   -77.0  &#34;Washington&#34;          <span class="gh">#</span> United States
+-41.28  174.78 &#34;Wellington&#34;          <span class="gh">#</span> New Zealand
+ 62.5  -114.3  &#34;Yellowknife&#34;         <span class="gh">#</span> N.T., Canada
+ 90.00    0.00 &#34;North Pole&#34;          <span class="gh">#</span> North Pole
+-90.00    0.00 &#34;South Pole&#34;          # South Pole</code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="参考">参考</h2>
+
+<p><a href="http://www.zhaiqianfeng.com/2017/05/hexo-plantuml.html">在hexo中使用PlantUML来画UML</a></p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">墨问非名</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2018-06-28
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/writing/hexo/embed-echarts-in-hexo/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">在Hexo博客中使用ECharts来画图</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/writing/hexo/embed-music-in-hexo/">
+            <span class="next-text nav-default">在Hexo博客中插入音乐</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+  
+  <span id="/post/writing/hexo/embed-plantuml-in-hexo/" class="leancloud_visitors" data-flag-title="在Hexo博客中使用PlantUML来画UML">
+    <span class="post-meta-item-text">文章阅读量 </span>
+    <span class="leancloud-visitors-count">1000000</span>
+    <p></p>
+  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'uNChvK50WHVnvV71K0J2ClCm-gzGzoHsz',
+        appKey: 'Q86kXJvREzt2OB3oKTg6pGY0',
+        notify:  false , 
+        verify:  false , 
+        avatar:'mm', 
+        placeholder: '说点什么吧...',
+        visitor:  true 
+    });
+  </script>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:alicewishes@163.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="https://github.com/alicewish" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/Alicewish" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/mo-wen-fei-ming/activities" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://anywaywillgo.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2015 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">墨问非名</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script><script></script><script src="/lib/flowchartDiagrams/raphael-2.2.7.min.js" integrity="sha256-67By+NpOtm9ka1R6xpUefeGOY8kWWHHRAKlvaTJ7ONI=" crossorigin="anonymous"></script>
+    <script src="/lib/flowchartDiagrams/flowchart-1.8.0.min.js" integrity="sha256-zNGWjubXoY6rb5MnmpBNefO0RgoVYfle9p0tvOQM+6k=" crossorigin="anonymous"></script><script></script><script src="/lib/js-sequence-diagrams/webfontloader-1.6.28.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+    <script src="/lib/js-sequence-diagrams/snap.svg-0.5.1.min.js" integrity="sha256-oI+elz+sIm+jpn8F/qEspKoKveTc5uKeFHNNVexe6d8=" crossorigin="anonymous"></script>
+    <script src="/lib/js-sequence-diagrams/underscore-1.8.3.min.js" integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script>
+    <script src="/lib/js-sequence-diagrams/sequence-diagram-2.0.1.min.js" integrity="sha384-8748Vn52gHJYJI0XEuPB2QlPVNUkJlJn9tHqKec6J3q2r9l8fvRxrgn/E5ZHV0sP" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/lib/js-sequence-diagrams/sequence-diagram-2.0.1.min.css" integrity="sha384-6QbLKJMz5dS3adWSeINZe74uSydBGFbnzaAYmp+tKyq60S7H2p6V7g1TysM5lAaF" crossorigin="anonymous">
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

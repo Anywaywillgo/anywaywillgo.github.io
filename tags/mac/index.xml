@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on 非名榭 - 墨问非名的站点</title>
+    <link>https://anywaywillgo.github.io/tags/mac/</link>
+    <description>Recent content in Mac on 非名榭 - 墨问非名的站点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 12 Dec 2018 07:56:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://anywaywillgo.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【Mac漫画阅读器】【Simple Comic 1.7.1 汉化版】</title>
+      <link>https://anywaywillgo.github.io/post/app/mac/simple-comic-localization/</link>
+      <pubDate>Wed, 12 Dec 2018 07:56:29 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/app/mac/simple-comic-localization/</guid>
+      <description>&lt;p&gt;我……终于想起开源软件是公开代码可以自己编译的了。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;好了这是我给Simple Comic增加了简繁中文支持的版本。感谢Xcode。繁化有待优化，只用了简繁转换。&lt;/p&gt;
+
+&lt;p&gt;已提Pull Request等待作者合并本地化。&lt;/p&gt;
+
+&lt;p&gt;下载地址见：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/alicewish/Simple-Comic/releases&#34;&gt;https://github.com/alicewish/Simple-Comic/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;在El Capitan上测试通过，在Mojave上自定义工具栏有bug。&lt;/p&gt;
+
+&lt;p&gt;其他Mac漫画阅读器不开源，而且我买了以后还觉得不如Simple Comic用着舒服。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx3.sinaimg.cn/large/6a9fdecaly1fy3zwfrhquj20e80e8q4n.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>欧路词典的OCR取词功能</title>
+      <link>https://anywaywillgo.github.io/post/app/mac/mac-essentials-eudict/</link>
+      <pubDate>Wed, 16 Mar 2016 08:56:29 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/app/mac/mac-essentials-eudict/</guid>
+      <description>&lt;h2 id=&#34;在mac-app-store购买&#34;&gt;在Mac App Store购买&lt;/h2&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwucce3pvj219y0xkahg.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Simple Comic——Mac看漫画必备</title>
+      <link>https://anywaywillgo.github.io/post/app/mac/mac-essentials-simple-comic/</link>
+      <pubDate>Wed, 16 Mar 2016 07:56:29 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/app/mac/mac-essentials-simple-comic/</guid>
+      <description>&lt;h2 id=&#34;simple-comic介绍&#34;&gt;Simple Comic介绍&lt;/h2&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;旨在对Mac上阅读漫画简化过程优化体验的开源软件。2013年后未再更新，但稳定好用，这点和MangaMeeya近似。可以给开发者捐赠。&lt;/p&gt;
+
+&lt;p&gt;并没有汉化。不过操作简洁明了，英文不是问题。&lt;/p&gt;
+
+&lt;h2 id=&#34;simple-comic体验&#34;&gt;Simple Comic体验&lt;/h2&gt;
+
+&lt;h3 id=&#34;app图标&#34;&gt;App图标&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwucs1rz8j2068064t9c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

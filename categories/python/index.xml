@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on 非名榭 - 墨问非名的站点</title>
+    <link>https://anywaywillgo.github.io/categories/python/</link>
+    <description>Recent content in Python on 非名榭 - 墨问非名的站点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Jan 2019 07:03:22 +0800</lastBuildDate>
+    
+	<atom:link href="https://anywaywillgo.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【美漫自动汉化工具群宣】</title>
+      <link>https://anywaywillgo.github.io/post/code/python/qq-group-announcement-translation-tool/</link>
+      <pubDate>Tue, 29 Jan 2019 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/code/python/qq-group-announcement-translation-tool/</guid>
+      <description>&lt;p&gt;此工具不应用于不当牟利。&lt;/p&gt;
+
+&lt;!-- more --&gt;</description>
+    </item>
+    
+    <item>
+      <title>【美漫汉化工具】【自动填字过程】</title>
+      <link>https://anywaywillgo.github.io/post/code/python/auto-lettering-tool/</link>
+      <pubDate>Sat, 26 Jan 2019 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/code/python/auto-lettering-tool/</guid>
+      <description>&lt;p&gt;以《娜奥米》第1话第1页为例：&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;图1原始图像
+图2手动加框闭合气泡
+图3自动检测轮廓
+图4筛去不可能是气泡的轮廓
+图5对每个轮廓检验是否确实是气泡并且不包含其他气泡后还剩的轮廓
+图6对应涂白
+图7蒙版切割相连气泡，细线是分水岭算法自动切割，粗线是手动切割
+图8自动填字效果
+图9转为PSD微调效果&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx4.sinaimg.cn/large/6a9fdecaly1fzjkaq6jebj20u01a41kx.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【美漫汉化工具】想做一个自动涂白器</title>
+      <link>https://anywaywillgo.github.io/post/code/python/thoughts-on-whiten-tool/</link>
+      <pubDate>Mon, 14 Jan 2019 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/code/python/thoughts-on-whiten-tool/</guid>
+      <description>&lt;p&gt;#美漫汉化工具#&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;想做一个自动涂白器。&lt;/p&gt;
+
+&lt;p&gt;进度：
+图2提取白色区域并反色；
+图3轮廓检测；
+图4斑点检测，判断是否为椭圆形。&lt;/p&gt;
+
+&lt;p&gt;更新：
+图5是对涂白区域的框选；
+图6是涂白效果。&lt;/p&gt;
+
+&lt;p&gt;斑点检测根本没用上就完成了。&lt;/p&gt;
+
+&lt;p&gt;涂白器完成的话顺便能搞定文字提取。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx2.sinaimg.cn/large/6a9fdecagy1fz5vpnmh8nj21j82cw7ul.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【comichron历史销量下载器 v1.0 by 墨问非名】</title>
+      <link>https://anywaywillgo.github.io/post/code/python/comichron-sales-downloader/</link>
+      <pubDate>Sun, 30 Dec 2018 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/code/python/comichron-sales-downloader/</guid>
+      <description>&lt;p&gt;就一个简单的销量数据下载器。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;后续可能做销量图或者销量分析工具。&lt;/p&gt;
+
+&lt;p&gt;源代码与软件下载见：&lt;a href=&#34;https://github.com/alicewish/comichron_downloader/releases/tag/v1.0&#34;&gt;https://github.com/alicewish/comichron_downloader/releases/tag/v1.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;适配Mac与Windows。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx3.sinaimg.cn/large/6a9fdecaly1fyoyb4nfxaj21400p0dit.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【批量下载worldwidetorrents种子】</title>
+      <link>https://anywaywillgo.github.io/post/code/python/bulk-download-worldwidetorrents-torrents/</link>
+      <pubDate>Mon, 30 Jul 2018 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/code/python/bulk-download-worldwidetorrents-torrents/</guid>
+      <description>&lt;p&gt;我用来管理漫画的脚本之一。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;用于下载&lt;code&gt;Nemesis43&lt;/code&gt;、&lt;code&gt;Shipjolly&lt;/code&gt;和&lt;code&gt;RubrumPopulus&lt;/code&gt;的种子，你也可以下载其他用户的，自己填用户id即可。&lt;/p&gt;
+
+&lt;p&gt;以后可能会公开更多脚本。&lt;/p&gt;
+
+&lt;p&gt;注意：有三个参数要填你自己的，&lt;code&gt;cookie&lt;/code&gt;、&lt;code&gt;header&lt;/code&gt;还有&lt;code&gt;保存目录&lt;/code&gt;。浏览器&lt;code&gt;F12&lt;/code&gt;开控制台看。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>说明 on 非名榭 - 墨问非名的站点</title>
+    <link>https://anywaywillgo.github.io/tags/%E8%AF%B4%E6%98%8E/</link>
+    <description>Recent content in 说明 on 非名榭 - 墨问非名的站点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 18 Jul 2016 01:23:39 +0800</lastBuildDate>
+    
+	<atom:link href="https://anywaywillgo.github.io/tags/%E8%AF%B4%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>【资源】【墨问非名、anywaywillgo度盘合集】</title>
+      <link>https://anywaywillgo.github.io/post/resource/site-instruction/</link>
+      <pubDate>Mon, 18 Jul 2016 01:23:39 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/resource/site-instruction/</guid>
+      <description>&lt;p&gt;用GitHub Pages+Hexo搭了一个博客：&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://alicewish.github.io/&#34;&gt;https://alicewish.github.io/&lt;/a&gt;&lt;br /&gt;
+以前的汉化、教程、杂谈，都会搬过去，每本刊物会有分期的&lt;code&gt;在线+译文&lt;/code&gt;和合集的&lt;code&gt;目录+下载&lt;/code&gt;。要求补档的直接在合集页下评论即可。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

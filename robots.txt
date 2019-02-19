@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://anywaywillgo.github.io/sitemap.xml

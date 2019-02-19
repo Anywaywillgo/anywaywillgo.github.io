@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>alicewish on 非名榭 - 墨问非名的站点</title>
+    <link>https://anywaywillgo.github.io/categories/alicewish/</link>
+    <description>Recent content in alicewish on 非名榭 - 墨问非名的站点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 25 Mar 2018 08:10:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://anywaywillgo.github.io/categories/alicewish/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>墨问非名-汉化教程7——【6分钟带你了解汉化】</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-7/</link>
+      <pubDate>Sun, 25 Mar 2018 08:10:53 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-7/</guid>
+      <description>&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=21216039&amp;cid=34845080&amp;page=1&#34; width=&#34;780&#34; height=&#34;480&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;  
+
+&lt;!-- more --&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-汉化教程6——自动填字脚本</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-6/</link>
+      <pubDate>Tue, 06 Feb 2018 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-6/</guid>
+      <description>&lt;p&gt;被糟糕透顶的家伙纠缠已经一年半了。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;那时本打算尽快放出的译稿断行脚本在灰心之下搁置了。&lt;/p&gt;
+
+&lt;p&gt;连同汉化几乎也是。&lt;/p&gt;
+
+&lt;p&gt;唉。&lt;/p&gt;
+
+&lt;p&gt;刚才把JavaScript入门教程看了一会，将之前的自动填字脚本里主函数优化了一下，并完善了注释和说明（主要是将Switch语句改成For循环），以及注明Credit。&lt;/p&gt;
+
+&lt;p&gt;此脚本fork自@梁进刚 &lt;a href=&#34;https://tieba.baidu.com/p/3020902369&#34;&gt;【给汉化者们分享几个小工具】&lt;/a&gt; [发布于2014-05-03 20:09]&lt;/p&gt;
+
+&lt;p&gt;当前版本加入了由@暗_阿尔兹海默症早发中 增加的部分自定义选项。&lt;/p&gt;
+
+&lt;p&gt;在2015~2016年我做了以下几点工作：&lt;br /&gt;
+1、配合AHK及Word，一次自动填完一期。&lt;br /&gt;
+2、依靠Word宏，通过markdown将文本格式转换为标记，可以方便加粗斜。&lt;br /&gt;
+3、分离对话框，再用自动居中动作调整文本框位置。&lt;br /&gt;
+4、大力推广用自动识别修图及处理对话框。&lt;br /&gt;
+5、用结巴分词自动断行。（大概九成多的可靠性，未使用算法，单纯读取历史数据建立模型。）&lt;/p&gt;
+
+&lt;p&gt;前3项早就发布了。现在有一些优化的思路。因为Word宏修改起来太烦了，可能换成纯python实现。&lt;br /&gt;
+第5项……大概我还是会发布的吧。&lt;/p&gt;
+
+&lt;p&gt;新版脚本&lt;br /&gt;
+&lt;a href=&#34;https://github.com/alicewish/lettering/blob/master/Photoshop%20Script/Text%20to%20psd.jsx&#34;&gt;Text to psd.jsx&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://raw.githubusercontent.com/alicewish/lettering/master/Photoshop%20Script/Text%20to%20psd.jsx&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-汉化教程5——自动分页填字</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-5/</link>
+      <pubDate>Thu, 26 May 2016 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-5/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;我知道我做的美漫汉化教程挺欺负人的，该写清楚的地方云里雾里。唉，可是懒癌上来挡不住啊。&lt;/p&gt;
+
+&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
+
+&lt;p&gt;首先要有格式准确的稿子。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwu7fflajj21a618ldi4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-汉化教程4——快速填字演示</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-4/</link>
+      <pubDate>Mon, 02 May 2016 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-4/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ww1.sinaimg.cn/large/6a9fdecagw1f65awwr2aig20tt0ige86.gif&#34; alt=&#34;快速填字GIF&#34; /&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-美漫图源制作</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/backup-comic/</link>
+      <pubDate>Wed, 16 Mar 2016 07:17:37 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/backup-comic/</guid>
+      <description>&lt;h1 id=&#34;美漫图源制作&#34;&gt;美漫图源制作&lt;/h1&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&#34;漫画购买&#34;&gt;漫画购买&lt;/h2&gt;
+
+&lt;h3 id=&#34;comixology&#34;&gt;Comixology&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.comixology.com/&#34;&gt;https://www.comixology.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwuu7bf0yj21kw16yayj.jpg&#34; alt=&#34;2016-03-16\_110050&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-汉化教程3——一分钟填字法</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-3/</link>
+      <pubDate>Mon, 02 Nov 2015 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-3/</guid>
+      <description>&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=3157787&amp;cid=4971718&amp;page=1&#34; width=&#34;780&#34; height=&#34;480&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;  
+
+&lt;!-- more --&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-汉化教程2——绝对居中</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-2/</link>
+      <pubDate>Sun, 28 Jun 2015 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-2/</guid>
+      <description>&lt;h2 id=&#34;①-涂白-使用魔棒涂白如下&#34;&gt;①【涂白】使用魔棒涂白如下：&lt;/h2&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwuhvf0vbj21j816g7r2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-汉化教程1.1——批量法涂渐变实例</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-1-example/</link>
+      <pubDate>Tue, 09 Jun 2015 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-1-example/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwugxds9xj21kw17ru10.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;</description>
+    </item>
+    
+    <item>
+      <title>墨问非名-汉化教程1——批量涂渐变</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-1/</link>
+      <pubDate>Tue, 09 Jun 2015 07:03:22 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-1/</guid>
+      <description>&lt;p&gt;以《不羁灵途》(WAYWARD)第5话第15页为例，原图如下：&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwu775r4gj21j82cwx6p.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

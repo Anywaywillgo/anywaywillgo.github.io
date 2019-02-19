@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>【批量下载worldwidetorrents种子】 - 非名榭 - 墨问非名的站点</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="墨问非名" /><meta name="description" content="我用来管理漫画的脚本之一。
+用于下载Nemesis43、Shipjolly和RubrumPopulus的种子，你也可以下载其他用户的，自己填用户id即可。
+以后可能会公开更多脚本。
+注意：有三个参数要填你自己的，cookie、header还有保存目录。浏览器F12开控制台看。
+" /><meta name="keywords" content="墨问非名, 非名榭" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.54.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://anywaywillgo.github.io/post/code/python/bulk-download-worldwidetorrents-torrents/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="【批量下载worldwidetorrents种子】" />
+<meta property="og:description" content="我用来管理漫画的脚本之一。
+
+
+
+用于下载Nemesis43、Shipjolly和RubrumPopulus的种子，你也可以下载其他用户的，自己填用户id即可。
+
+以后可能会公开更多脚本。
+
+注意：有三个参数要填你自己的，cookie、header还有保存目录。浏览器F12开控制台看。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://anywaywillgo.github.io/post/code/python/bulk-download-worldwidetorrents-torrents/" />
+<meta property="article:published_time" content="2018-07-30T07:03:22&#43;08:00"/>
+<meta property="article:modified_time" content="2018-07-30T07:03:22&#43;08:00"/>
+
+<meta itemprop="name" content="【批量下载worldwidetorrents种子】">
+<meta itemprop="description" content="我用来管理漫画的脚本之一。
+
+
+
+用于下载Nemesis43、Shipjolly和RubrumPopulus的种子，你也可以下载其他用户的，自己填用户id即可。
+
+以后可能会公开更多脚本。
+
+注意：有三个参数要填你自己的，cookie、header还有保存目录。浏览器F12开控制台看。">
+
+
+<meta itemprop="datePublished" content="2018-07-30T07:03:22&#43;08:00" />
+<meta itemprop="dateModified" content="2018-07-30T07:03:22&#43;08:00" />
+<meta itemprop="wordCount" content="908">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="【批量下载worldwidetorrents种子】"/>
+<meta name="twitter:description" content="我用来管理漫画的脚本之一。
+
+
+
+用于下载Nemesis43、Shipjolly和RubrumPopulus的种子，你也可以下载其他用户的，自己填用户id即可。
+
+以后可能会公开更多脚本。
+
+注意：有三个参数要填你自己的，cookie、header还有保存目录。浏览器F12开控制台看。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">非名榭</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">非名榭</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">【批量下载worldwidetorrents种子】</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2018-07-30 </span>
+        <div class="post-category">
+            <a href="/categories/code/"> Code </a>
+            <a href="/categories/python/"> Python </a>
+            </div>
+          <span class="more-meta"> 约 908 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    
+  </div>
+</div>
+    <div class="post-content">
+      <p>我用来管理漫画的脚本之一。</p>
+
+<!-- more -->
+
+<p>用于下载<code>Nemesis43</code>、<code>Shipjolly</code>和<code>RubrumPopulus</code>的种子，你也可以下载其他用户的，自己填用户id即可。</p>
+
+<p>以后可能会公开更多脚本。</p>
+
+<p>注意：有三个参数要填你自己的，<code>cookie</code>、<code>header</code>还有<code>保存目录</code>。浏览器<code>F12</code>开控制台看。</p>
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt">  1
+</span><span class="lnt">  2
+</span><span class="lnt">  3
+</span><span class="lnt">  4
+</span><span class="lnt">  5
+</span><span class="lnt">  6
+</span><span class="lnt">  7
+</span><span class="lnt">  8
+</span><span class="lnt">  9
+</span><span class="lnt"> 10
+</span><span class="lnt"> 11
+</span><span class="lnt"> 12
+</span><span class="lnt"> 13
+</span><span class="lnt"> 14
+</span><span class="lnt"> 15
+</span><span class="lnt"> 16
+</span><span class="lnt"> 17
+</span><span class="lnt"> 18
+</span><span class="lnt"> 19
+</span><span class="lnt"> 20
+</span><span class="lnt"> 21
+</span><span class="lnt"> 22
+</span><span class="lnt"> 23
+</span><span class="lnt"> 24
+</span><span class="lnt"> 25
+</span><span class="lnt"> 26
+</span><span class="lnt"> 27
+</span><span class="lnt"> 28
+</span><span class="lnt"> 29
+</span><span class="lnt"> 30
+</span><span class="lnt"> 31
+</span><span class="lnt"> 32
+</span><span class="lnt"> 33
+</span><span class="lnt"> 34
+</span><span class="lnt"> 35
+</span><span class="lnt"> 36
+</span><span class="lnt"> 37
+</span><span class="lnt"> 38
+</span><span class="lnt"> 39
+</span><span class="lnt"> 40
+</span><span class="lnt"> 41
+</span><span class="lnt"> 42
+</span><span class="lnt"> 43
+</span><span class="lnt"> 44
+</span><span class="lnt"> 45
+</span><span class="lnt"> 46
+</span><span class="lnt"> 47
+</span><span class="lnt"> 48
+</span><span class="lnt"> 49
+</span><span class="lnt"> 50
+</span><span class="lnt"> 51
+</span><span class="lnt"> 52
+</span><span class="lnt"> 53
+</span><span class="lnt"> 54
+</span><span class="lnt"> 55
+</span><span class="lnt"> 56
+</span><span class="lnt"> 57
+</span><span class="lnt"> 58
+</span><span class="lnt"> 59
+</span><span class="lnt"> 60
+</span><span class="lnt"> 61
+</span><span class="lnt"> 62
+</span><span class="lnt"> 63
+</span><span class="lnt"> 64
+</span><span class="lnt"> 65
+</span><span class="lnt"> 66
+</span><span class="lnt"> 67
+</span><span class="lnt"> 68
+</span><span class="lnt"> 69
+</span><span class="lnt"> 70
+</span><span class="lnt"> 71
+</span><span class="lnt"> 72
+</span><span class="lnt"> 73
+</span><span class="lnt"> 74
+</span><span class="lnt"> 75
+</span><span class="lnt"> 76
+</span><span class="lnt"> 77
+</span><span class="lnt"> 78
+</span><span class="lnt"> 79
+</span><span class="lnt"> 80
+</span><span class="lnt"> 81
+</span><span class="lnt"> 82
+</span><span class="lnt"> 83
+</span><span class="lnt"> 84
+</span><span class="lnt"> 85
+</span><span class="lnt"> 86
+</span><span class="lnt"> 87
+</span><span class="lnt"> 88
+</span><span class="lnt"> 89
+</span><span class="lnt"> 90
+</span><span class="lnt"> 91
+</span><span class="lnt"> 92
+</span><span class="lnt"> 93
+</span><span class="lnt"> 94
+</span><span class="lnt"> 95
+</span><span class="lnt"> 96
+</span><span class="lnt"> 97
+</span><span class="lnt"> 98
+</span><span class="lnt"> 99
+</span><span class="lnt">100
+</span><span class="lnt">101
+</span><span class="lnt">102
+</span><span class="lnt">103
+</span><span class="lnt">104
+</span><span class="lnt">105
+</span><span class="lnt">106
+</span><span class="lnt">107
+</span><span class="lnt">108
+</span><span class="lnt">109
+</span><span class="lnt">110
+</span><span class="lnt">111
+</span><span class="lnt">112
+</span><span class="lnt">113
+</span><span class="lnt">114
+</span><span class="lnt">115
+</span><span class="lnt">116
+</span><span class="lnt">117
+</span><span class="lnt">118
+</span><span class="lnt">119
+</span><span class="lnt">120
+</span><span class="lnt">121
+</span><span class="lnt">122
+</span><span class="lnt">123
+</span><span class="lnt">124
+</span><span class="lnt">125
+</span><span class="lnt">126
+</span><span class="lnt">127
+</span><span class="lnt">128
+</span><span class="lnt">129
+</span><span class="lnt">130
+</span><span class="lnt">131
+</span><span class="lnt">132
+</span><span class="lnt">133
+</span><span class="lnt">134
+</span><span class="lnt">135
+</span><span class="lnt">136
+</span><span class="lnt">137
+</span><span class="lnt">138
+</span><span class="lnt">139
+</span><span class="lnt">140
+</span><span class="lnt">141
+</span><span class="lnt">142
+</span><span class="lnt">143
+</span><span class="lnt">144
+</span><span class="lnt">145
+</span><span class="lnt">146
+</span><span class="lnt">147
+</span><span class="lnt">148
+</span><span class="lnt">149
+</span><span class="lnt">150
+</span><span class="lnt">151
+</span><span class="lnt">152
+</span><span class="lnt">153
+</span><span class="lnt">154
+</span><span class="lnt">155
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">urllib.parse</span>
+
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">lxml</span> <span class="kn">import</span> <span class="n">html</span>
+
+<span class="n">user_id</span> <span class="o">=</span> <span class="mi">36</span>  <span class="c1"># Nemesis43</span>
+<span class="n">user_id</span> <span class="o">=</span> <span class="mi">4445</span>  <span class="c1"># Shipjolly</span>
+<span class="n">user_id</span> <span class="o">=</span> <span class="mi">20217</span>  <span class="c1"># RubrumPopulus</span>
+
+<span class="n">ID_STRING</span> <span class="o">=</span> <span class="s1">&#39;&#39;&#39;
+</span><span class="s1">36
+</span><span class="s1">4445
+</span><span class="s1">20217
+</span><span class="s1">&#39;&#39;&#39;</span>
+
+
+<span class="k">def</span> <span class="nf">check_torrent</span><span class="p">(</span><span class="n">href</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;download.php?id=445&amp;amp;name=Back%20to%20the</span><span class="si">%20F</span><span class="s2">uture</span><span class="si">%20011%</span><span class="s2">20</span><span class="si">%282016%</span><span class="s2">29</span><span class="si">%20%</span><span class="s2">28Digital</span><span class="si">%29%</span><span class="s2">20%28Kileko-Empire%29.cbr.torrent&#34;&#34;&#34;</span>
+    <span class="n">download_pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^download\.php\?id=\d{1,20}&amp;name=(.+)&#39;</span><span class="p">)</span>
+    <span class="n">status</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">download_pattern</span><span class="p">,</span> <span class="n">href</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">status</span>
+
+
+<span class="k">def</span> <span class="nf">get_filename</span><span class="p">(</span><span class="n">href</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;download.php?id=445&amp;amp;name=Back%20to%20the</span><span class="si">%20F</span><span class="s2">uture</span><span class="si">%20011%</span><span class="s2">20</span><span class="si">%282016%</span><span class="s2">29</span><span class="si">%20%</span><span class="s2">28Digital</span><span class="si">%29%</span><span class="s2">20%28Kileko-Empire%29.cbr.torrent&#34;&#34;&#34;</span>
+    <span class="n">download_pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^download\.php\?id=\d{1,20}&amp;name=(.+)&#39;</span><span class="p">)</span>
+    <span class="n">download_match</span> <span class="o">=</span> <span class="n">download_pattern</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">href</span><span class="p">)</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="k">if</span> <span class="n">download_match</span><span class="p">:</span>
+        <span class="n">filename</span> <span class="o">=</span> <span class="n">download_match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">unquote</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">filename</span>
+
+
+<span class="k">def</span> <span class="nf">check_page</span><span class="p">(</span><span class="n">href</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;torrents-user.php?id=36&amp;page=239&#34;&#34;&#34;</span>
+    <span class="n">page_pattern</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^torrents-user\.php\?id=\d{1,20}&amp;page=\d{1,20}&#39;</span><span class="p">)</span>
+    <span class="c1"># page_pattern = r&#39;^torrents-user&#39;</span>
+    <span class="n">status</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">page_pattern</span><span class="p">,</span> <span class="n">href</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">status</span>
+
+
+<span class="k">def</span> <span class="nf">get_page_num</span><span class="p">(</span><span class="n">href</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;torrents-user.php?id=36&amp;page=239&#34;&#34;&#34;</span>
+    <span class="n">p_num</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="nb">compile</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^torrents-user\.php\?id=\d{1,20}&amp;page=(\d{1,20})&#39;</span><span class="p">)</span>
+    <span class="n">m_num</span> <span class="o">=</span> <span class="n">p_num</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="n">href</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">m_num</span> <span class="ow">and</span> <span class="n">m_num</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">():</span>
+        <span class="n">page_num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">m_num</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">page_num</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">return</span> <span class="n">page_num</span>
+
+
+<span class="k">def</span> <span class="nf">download_f_url</span><span class="p">(</span><span class="n">download_url</span><span class="p">,</span> <span class="n">file_path</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">download_url</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s2">&#34;wb&#34;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">download_url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">header</span><span class="p">,</span> <span class="n">cookies</span><span class="o">=</span><span class="n">cookie</span><span class="p">)</span>
+        <span class="nb">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">get_html</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+    <span class="n">header</span><span class="p">[</span><span class="s1">&#39;Referer&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">url</span>
+    <span class="n">page</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">header</span><span class="p">,</span> <span class="n">cookies</span><span class="o">=</span><span class="n">cookie</span><span class="p">)</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="n">page</span><span class="o">.</span><span class="n">text</span>
+    <span class="k">return</span> <span class="n">text</span>
+
+
+<span class="k">def</span> <span class="nf">get_hrefs</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">page_num</span><span class="p">):</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://worldwidetorrents.me/torrents-user.php&#39;</span>
+
+    <span class="n">param</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="n">user_id</span><span class="p">,</span>
+        <span class="s1">&#39;page&#39;</span><span class="p">:</span> <span class="n">page_num</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="c1"># referer:https://worldwidetorrents.me/account-details.php?id=4445</span>
+
+    <span class="n">referer</span> <span class="o">=</span> <span class="n">url</span> <span class="o">+</span> <span class="s1">&#39;?id=&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">user_id</span><span class="p">)</span>
+    <span class="n">header</span><span class="p">[</span><span class="s1">&#39;Referer&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">referer</span>
+
+    <span class="n">page</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">header</span><span class="p">,</span> <span class="n">cookies</span><span class="o">=</span><span class="n">cookie</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">param</span><span class="p">)</span>
+
+    <span class="n">tree</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">fromstring</span><span class="p">(</span><span class="n">page</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+    <span class="c1"># ====================获取列表====================</span>
+    <span class="n">hrefs</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">xpath</span><span class="p">(</span><span class="s1">&#39;//center/table//a[@href]/@href&#39;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">hrefs</span>
+
+
+<span class="k">def</span> <span class="nf">ReadHtml</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">set_page</span><span class="o">=</span><span class="mi">999</span><span class="p">):</span>
+    <span class="n">sub_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">file_dir</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">user_id</span><span class="p">))</span>
+    <span class="c1"># ================读取第1页================</span>
+    <span class="s2">&#34;&#34;&#34;https://worldwidetorrents.me/torrents-user.php?id=36&amp;page=237&#34;&#34;&#34;</span>
+    <span class="n">page_num</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">hrefs</span> <span class="o">=</span> <span class="n">get_hrefs</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">page_num</span><span class="p">)</span>
+
+    <span class="n">page_hrefs</span> <span class="o">=</span> <span class="p">[</span><span class="n">href</span> <span class="k">for</span> <span class="n">href</span> <span class="ow">in</span> <span class="n">hrefs</span> <span class="k">if</span> <span class="n">check_page</span><span class="p">(</span><span class="n">href</span><span class="p">)]</span>
+    <span class="n">torrent_hrefs</span> <span class="o">=</span> <span class="p">[</span><span class="n">href</span> <span class="k">for</span> <span class="n">href</span> <span class="ow">in</span> <span class="n">hrefs</span> <span class="k">if</span> <span class="n">check_torrent</span><span class="p">(</span><span class="n">href</span><span class="p">)]</span>
+
+    <span class="n">page_nums</span> <span class="o">=</span> <span class="p">[</span><span class="n">get_page_num</span><span class="p">(</span><span class="n">href</span><span class="p">)</span> <span class="k">for</span> <span class="n">href</span> <span class="ow">in</span> <span class="n">page_hrefs</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">page_nums</span> <span class="o">==</span> <span class="p">[]:</span>
+        <span class="n">max_page</span> <span class="o">=</span> <span class="mi">1</span>
+
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">max_page</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">page_nums</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">max_page</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">max_page</span> <span class="o">=</span> <span class="mi">1</span>
+
+    <span class="k">print</span><span class="p">(</span><span class="n">max_page</span><span class="p">)</span>
+
+    <span class="n">torrents</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">wwt_prefix</span> <span class="o">=</span> <span class="s1">&#39;https://worldwidetorrents.me/&#39;</span>
+    <span class="n">end_page</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">max_page</span><span class="p">,</span> <span class="n">set_page</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;end_page:&#39;</span><span class="p">,</span> <span class="n">end_page</span><span class="p">)</span>
+    <span class="c1"># ================读取全部页面================</span>
+    <span class="k">for</span> <span class="n">page_num</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">end_page</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+        <span class="n">hrefs</span> <span class="o">=</span> <span class="n">get_hrefs</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">page_num</span><span class="p">)</span>
+        <span class="n">torrent_hrefs</span> <span class="o">=</span> <span class="p">[</span><span class="n">href</span> <span class="k">for</span> <span class="n">href</span> <span class="ow">in</span> <span class="n">hrefs</span> <span class="k">if</span> <span class="n">check_torrent</span><span class="p">(</span><span class="n">href</span><span class="p">)]</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">page_num</span><span class="p">)</span>
+
+        <span class="n">torrents</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">torrent_hrefs</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">torrent</span> <span class="ow">in</span> <span class="n">torrent_hrefs</span><span class="p">:</span>
+            <span class="n">download_url</span> <span class="o">=</span> <span class="n">wwt_prefix</span> <span class="o">+</span> <span class="n">torrent</span>
+            <span class="n">filename</span> <span class="o">=</span> <span class="n">get_filename</span><span class="p">(</span><span class="n">torrent</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">filename</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;.torrent&#39;</span><span class="p">):</span>
+                <span class="n">filename</span> <span class="o">+=</span> <span class="s1">&#39;.torrent&#39;</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+            <span class="n">file_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sub_dir</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">file_path</span><span class="p">):</span>  <span class="c1"># 判断目标是否存在</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">download_f_url</span><span class="p">(</span><span class="n">download_url</span><span class="p">,</span> <span class="n">file_path</span><span class="p">)</span>
+                <span class="k">except</span><span class="p">:</span>
+                    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;请注意:&#39;</span><span class="p">,</span> <span class="n">download_url</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># print(filename + &#39;已下载&#39;)</span>
+                <span class="k">pass</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">cookie</span> <span class="o">=</span> <span class="s1">&#39;your_cookie&#39;</span>
+    <span class="n">header</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;User-Agent&#39;</span><span class="p">:</span> <span class="s1">&#39;your_header&#39;</span><span class="p">}</span>
+    <span class="c1"># 打开https://worldwidetorrents.me/，从浏览器控制台复制你的cookie和header填入此处，一定时间后会过期需重填</span>
+
+    <span class="n">file_dir</span> <span class="o">=</span> <span class="s1">&#39;your_destination_folder&#39;</span>  <span class="c1"># 设置你要保存到的目录</span>
+
+    <span class="n">id_lines</span> <span class="o">=</span> <span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">ID_STRING</span><span class="o">.</span><span class="n">splitlines</span><span class="p">()</span> <span class="k">if</span> <span class="n">line</span> <span class="o">!=</span> <span class="s1">&#39;&#39;</span><span class="p">]</span>
+    <span class="n">search_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="nb">int</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">id_lines</span> <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">()]))</span>
+    <span class="n">search_list</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+
+    <span class="k">for</span> <span class="n">user_id</span> <span class="ow">in</span> <span class="n">search_list</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">ReadHtml</span><span class="p">(</span><span class="n">user_id</span><span class="p">,</span> <span class="n">set_page</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># set_page表示你要抓取前多少页</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">pass</span></code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">墨问非名</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2018-07-30
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/comic/explained/dc/injustice-2/issue-69/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">【生肉】【不义联盟2】【69】【爱与控心】</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/comic/explained/dc/injustice-vs.-masters-of-the-universe/issue-1/">
+            <span class="next-text nav-default">【生肉】【不义联盟VS宇宙的巨人希曼】【01】</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+  
+  <span id="/post/code/python/bulk-download-worldwidetorrents-torrents/" class="leancloud_visitors" data-flag-title="【批量下载worldwidetorrents种子】">
+    <span class="post-meta-item-text">文章阅读量 </span>
+    <span class="leancloud-visitors-count">1000000</span>
+    <p></p>
+  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'uNChvK50WHVnvV71K0J2ClCm-gzGzoHsz',
+        appKey: 'Q86kXJvREzt2OB3oKTg6pGY0',
+        notify:  false , 
+        verify:  false , 
+        avatar:'mm', 
+        placeholder: '说点什么吧...',
+        visitor:  true 
+    });
+  </script>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:alicewishes@163.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="https://github.com/alicewish" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/Alicewish" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/mo-wen-fei-ming/activities" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://anywaywillgo.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2015 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">墨问非名</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script><script></script><script src="/lib/flowchartDiagrams/raphael-2.2.7.min.js" integrity="sha256-67By+NpOtm9ka1R6xpUefeGOY8kWWHHRAKlvaTJ7ONI=" crossorigin="anonymous"></script>
+    <script src="/lib/flowchartDiagrams/flowchart-1.8.0.min.js" integrity="sha256-zNGWjubXoY6rb5MnmpBNefO0RgoVYfle9p0tvOQM+6k=" crossorigin="anonymous"></script><script></script><script src="/lib/js-sequence-diagrams/webfontloader-1.6.28.js" integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+    <script src="/lib/js-sequence-diagrams/snap.svg-0.5.1.min.js" integrity="sha256-oI+elz+sIm+jpn8F/qEspKoKveTc5uKeFHNNVexe6d8=" crossorigin="anonymous"></script>
+    <script src="/lib/js-sequence-diagrams/underscore-1.8.3.min.js" integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script>
+    <script src="/lib/js-sequence-diagrams/sequence-diagram-2.0.1.min.js" integrity="sha384-8748Vn52gHJYJI0XEuPB2QlPVNUkJlJn9tHqKec6J3q2r9l8fvRxrgn/E5ZHV0sP" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/lib/js-sequence-diagrams/sequence-diagram-2.0.1.min.css" integrity="sha384-6QbLKJMz5dS3adWSeINZe74uSydBGFbnzaAYmp+tKyq60S7H2p6V7g1TysM5lAaF" crossorigin="anonymous">
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

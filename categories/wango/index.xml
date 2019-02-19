@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wango on 非名榭 - 墨问非名的站点</title>
+    <link>https://anywaywillgo.github.io/categories/wango/</link>
+    <description>Recent content in Wango on 非名榭 - 墨问非名的站点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 01 Jul 2016 20:34:29 +0800</lastBuildDate>
+    
+	<atom:link href="https://anywaywillgo.github.io/categories/wango/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wango-SLOMO漫画发布流程</title>
+      <link>https://anywaywillgo.github.io/post/tutorial/wango/wango-slomo-publish-steps/</link>
+      <pubDate>Fri, 01 Jul 2016 20:34:29 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/tutorial/wango/wango-slomo-publish-steps/</guid>
+      <description>&lt;p&gt;目前的发布主要是通过豆瓣小站、lofter、微博、贴吧四个渠道，以我个人发布时的流程为例大致说明一下。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;务必记得所有小站外的下载地址都用豆瓣的发布页面做地址，这样一旦后来查出有什么问题，更新修复版的比较方便，小站的文章是可编辑的，更新了版本之后直接在小站的发布界面替换度盘链接就好。&lt;/p&gt;
+
+&lt;h2 id=&#34;一-豆瓣小站的发布&#34;&gt;一、豆瓣小站的发布&lt;/h2&gt;
+
+&lt;h4 id=&#34;1-1单期发布&#34;&gt;1-1单期发布&lt;/h4&gt;
+
+&lt;p&gt;首先在豆瓣小站上建立该期的发布页面：（小站地址：&lt;a href=&#34;https://site.douban.com/226776/）&#34;&gt;https://site.douban.com/226776/）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;依次进入&lt;code&gt;Book of Oa汉化发布 -&amp;gt; Foundary单期发布 -&amp;gt; 写新日记&lt;/code&gt;，题目规格就是&lt;code&gt;【SLOMO】刊名 期号&lt;/code&gt;这样的，具体可以参照以往的发布。图片一般插入包括封面和小组宣传图在内的9张左右的图（考虑到微博发布时9张的限制），我比较喜欢按照以下的格式发布：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;预览图&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;简介文案&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;下载地址&lt;/strong&gt;（包括本期的度盘地址、lofter在线观看地址、该系列的往期合集地址）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;制作人员名单&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;例如：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwuf6xgahj20um0lejt0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
