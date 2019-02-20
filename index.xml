@@ -6,19 +6,10 @@
     <description>Recent content on 非名榭 - 墨问非名的站点</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Feb 2019 17:18:22 +0800</lastBuildDate>
     
 	<atom:link href="https://anywaywillgo.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>关于</title>
-      <link>https://anywaywillgo.github.io/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
-      
-      <guid>https://anywaywillgo.github.io/about/</guid>
-      <description>Hugo is a static site engine written in Go. It makes use of a variety of open source projects including: Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
-    </item>
     
     <item>
       <title>【鸽子汉化组】【招新】</title>
@@ -1183,6 +1174,15 @@ OOC&amp;#30340;&amp;#26159;&amp;#19981;&amp;#20041;&amp;#36229;&amp;#36319;&amp;
 2&amp;#12289;&amp;#26377;&amp;#20960;&amp;#31456;&amp;#20250;&amp;#26377;&amp;#40644;&amp;#21253;&amp;#36710;&amp;#12290;&amp;#27604;&amp;#22914;&amp;#31532;&amp;#20108;&amp;#31456;&amp;#12290;&amp;#20294;&amp;#37117;&amp;#20250;&amp;#22312;Notes&amp;#25552;&amp;#31034;&amp;#12290;&lt;br /&gt;
 3&amp;#12289;&amp;#28165;&amp;#27700;&amp;#29256;&amp;#35831;&amp;#33267;LOFTER&amp;#35266;&amp;#30475;&amp;#12290;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://anywaywillgo.github.io/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/about/</guid>
+      <description>Hugo is a static site engine written in Go. It makes use of a variety of open source projects including: Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
     </item>
     
     <item>
