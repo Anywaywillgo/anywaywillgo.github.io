@@ -6,10 +6,55 @@
     <description>Recent content in alicewish on 非名榭 - 墨问非名的站点</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 25 Mar 2018 08:10:53 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 May 2018 21:18:02 +0800</lastBuildDate>
     
 	<atom:link href="https://anywaywillgo.github.io/categories/alicewish/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>【非名居】【功能更新】【20180528】</title>
+      <link>https://anywaywillgo.github.io/post/note/blog/alicewish/update-20180528/</link>
+      <pubDate>Mon, 28 May 2018 21:18:02 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/note/blog/alicewish/update-20180528/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;增加&lt;code&gt;磁力链接&lt;/code&gt;类项，内容为Nemesis43曾发布过的种子包。所有种子包已收录到目录页。同时，现在在漫画系列页可以查看关联种子并下载。这一类项的入口：&lt;a href=&#34;https://alicewish.github.io/categories/torrent/&#34;&gt;https://alicewish.github.io/categories/torrent/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- more --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;未来末日和重生现记为特刊，归入对应主系列，不作为单独系列。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;解决了《新52蝙蝠侠与罗宾》改刊名的几期对应不准确的问题。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;修正了目录排序。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;总目录入口：&lt;a href=&#34;https://alicewish.github.io/post/catalogs&#34;&gt;https://alicewish.github.io/post/catalogs&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【非名居】【功能更新】【20180414】</title>
+      <link>https://anywaywillgo.github.io/post/note/blog/alicewish/update-20180414/</link>
+      <pubDate>Sat, 14 Apr 2018 21:18:02 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/note/blog/alicewish/update-20180414/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;修正了判断刊物所属出版公司时的准确性。&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- more --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;刊物页面现在增加了简介。&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;示例：&lt;a href=&#34;https://alicewish.github.io/post/series/crosswind/&#34;&gt;https://alicewish.github.io/post/series/crosswind/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>墨问非名-汉化教程7——【6分钟带你了解汉化】</title>
@@ -20,6 +65,40 @@
       <description>&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=21216039&amp;cid=34845080&amp;page=1&#34; width=&#34;780&#34; height=&#34;480&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;  
 
 &lt;!-- more --&gt;</description>
+    </item>
+    
+    <item>
+      <title>【非名居】【功能更新】【20180212】</title>
+      <link>https://anywaywillgo.github.io/post/note/blog/alicewish/update-20180212/</link>
+      <pubDate>Mon, 12 Feb 2018 21:18:02 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/note/blog/alicewish/update-20180212/</guid>
+      <description>&lt;p&gt;Wordpress站点【非名居】&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://alicewish.us&#34;&gt;http://alicewish.us&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;现开放注册。&lt;/p&gt;
+
+&lt;p&gt;其上加载了两套论坛系统和两套问答系统。&lt;/p&gt;
+
+&lt;p&gt;所有日志已开启评论功能。&lt;/p&gt;
+
+&lt;p&gt;搜索功能运转正常。&lt;/p&gt;
+
+&lt;p&gt;书签功能上线。&lt;/p&gt;
+
+&lt;p&gt;私信、群组、动态功能测试了一下还成。&lt;/p&gt;
+
+&lt;p&gt;私人网站所以没广告。&lt;/p&gt;
+
+&lt;p&gt;（不过也没客户端。这个我做不来。）&lt;/p&gt;
+
+&lt;p&gt;不义联盟2漫画图源：&lt;br /&gt;
+&lt;a href=&#34;http://alicewish.us/injustice-2&#34;&gt;http://alicewish.us/injustice-2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;需要投稿权限可以私聊我。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -60,6 +139,17 @@
     </item>
     
     <item>
+      <title>【DC】【不义联盟】【After Story后日谈】</title>
+      <link>https://anywaywillgo.github.io/post/fanfic/alicewish/after-story/</link>
+      <pubDate>Sat, 11 Jun 2016 08:56:29 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/fanfic/alicewish/after-story/</guid>
+      <description>&lt;h1 id=&#34;after-story-21518-26085-35848&#34;&gt;After Story&amp;#21518;&amp;#26085;&amp;#35848;&lt;/h1&gt;
+
+&lt;!-- more --&gt;</description>
+    </item>
+    
+    <item>
       <title>墨问非名-汉化教程5——自动分页填字</title>
       <link>https://anywaywillgo.github.io/post/tutorial/alicewish/alicewish-tutorial-5/</link>
       <pubDate>Thu, 26 May 2016 07:03:22 +0800</pubDate>
@@ -76,6 +166,17 @@
 &lt;p&gt;首先要有格式准确的稿子。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/6a9fdecaly1frwu7fflajj21a618ldi4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>【DC】【不义联盟】【Talk to Me言者无心】第1章【龙与虎】</title>
+      <link>https://anywaywillgo.github.io/post/fanfic/alicewish/talk-to-me/</link>
+      <pubDate>Mon, 09 May 2016 08:56:29 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/post/fanfic/alicewish/talk-to-me/</guid>
+      <description>&lt;p&gt;&amp;#20197;&amp;#28459;&amp;#30011;&amp;#33050;&amp;#26412;&amp;#26684;&amp;#24335;&amp;#25776;&amp;#20889;&amp;#12290;&amp;#38463;&amp;#33713;&amp;#20811;&amp;#35199;&amp;#26031;&amp;#183;&amp;#21346;&amp;#29791;&amp;#21644;&amp;#24067;&amp;#40065;&amp;#26031;&amp;#183;&amp;#38886;&amp;#24681;&amp;#30340;&amp;#31532;&amp;#19968;&amp;#27425;&amp;#20250;&amp;#38754;&amp;#12290;&lt;/p&gt;
+
+&lt;!-- more --&gt;</description>
     </item>
     
     <item>
