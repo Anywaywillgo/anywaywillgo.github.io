@@ -6,10 +6,46 @@
     <description>Recent content in Categories on 非名榭 - 墨问非名的站点</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 12 Feb 2019 17:18:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 12:51:03 +0800</lastBuildDate>
     
 	<atom:link href="https://anywaywillgo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comic</title>
+      <link>https://anywaywillgo.github.io/categories/comic/</link>
+      <pubDate>Wed, 01 May 2019 12:51:03 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/categories/comic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DC</title>
+      <link>https://anywaywillgo.github.io/categories/dc/</link>
+      <pubDate>Wed, 01 May 2019 12:51:03 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/categories/dc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DCeased</title>
+      <link>https://anywaywillgo.github.io/categories/dceased/</link>
+      <pubDate>Wed, 01 May 2019 12:51:03 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/categories/dceased/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translated</title>
+      <link>https://anywaywillgo.github.io/categories/translated/</link>
+      <pubDate>Wed, 01 May 2019 12:51:03 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/categories/translated/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Other</title>
@@ -30,29 +66,11 @@
     </item>
     
     <item>
-      <title>Comic</title>
-      <link>https://anywaywillgo.github.io/categories/comic/</link>
-      <pubDate>Tue, 12 Feb 2019 12:23:14 +0800</pubDate>
-      
-      <guid>https://anywaywillgo.github.io/categories/comic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Stone King</title>
       <link>https://anywaywillgo.github.io/categories/the-stone-king/</link>
       <pubDate>Tue, 12 Feb 2019 12:23:14 +0800</pubDate>
       
       <guid>https://anywaywillgo.github.io/categories/the-stone-king/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Translated</title>
-      <link>https://anywaywillgo.github.io/categories/translated/</link>
-      <pubDate>Tue, 12 Feb 2019 12:23:14 +0800</pubDate>
-      
-      <guid>https://anywaywillgo.github.io/categories/translated/</guid>
       <description></description>
     </item>
     
@@ -107,15 +125,6 @@
       <pubDate>Sat, 09 Feb 2019 12:23:14 +0800</pubDate>
       
       <guid>https://anywaywillgo.github.io/categories/bombshells/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DC</title>
-      <link>https://anywaywillgo.github.io/categories/dc/</link>
-      <pubDate>Sat, 09 Feb 2019 12:23:14 +0800</pubDate>
-      
-      <guid>https://anywaywillgo.github.io/categories/dc/</guid>
       <description></description>
     </item>
     
