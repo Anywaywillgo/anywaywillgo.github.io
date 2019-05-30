@@ -27,7 +27,9 @@
 
 &lt;p&gt;&lt;img src=&#34;https://wx3.sinaimg.cn/large/6a9fdecaly1g03r9cbsroj20u0190tvq.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://wx3.sinaimg.cn/large/6a9fdecaly1g03r9cbsroj20u0190tvq.jpg&#34; referrerPolicy=&#34;no-referrer&#34;&gt;&lt;/p&gt;</description>
+&lt;!-- &lt;img src=&#34;https://wx3.sinaimg.cn/large/6a9fdecaly1g03r9cbsroj20u0190tvq.jpg&#34; referrerPolicy=&#34;no-referrer&#34;&gt; --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wx3.sinaimg.cn/large/6a9fdecaly1g03r9cbsroj20u0190tvq.jpg&#34; rel=&#34;noreferrer&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
