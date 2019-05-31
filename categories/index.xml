@@ -237,15 +237,6 @@
     </item>
     
     <item>
-      <title>Alicewish</title>
-      <link>https://anywaywillgo.github.io/categories/alicewish/</link>
-      <pubDate>Mon, 28 May 2018 21:18:02 +0800</pubDate>
-      
-      <guid>https://anywaywillgo.github.io/categories/alicewish/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blog</title>
       <link>https://anywaywillgo.github.io/categories/blog/</link>
       <pubDate>Mon, 28 May 2018 21:18:02 +0800</pubDate>
@@ -260,6 +251,15 @@
       <pubDate>Mon, 28 May 2018 21:18:02 +0800</pubDate>
       
       <guid>https://anywaywillgo.github.io/categories/note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alicewish</title>
+      <link>https://anywaywillgo.github.io/categories/alicewish/</link>
+      <pubDate>Mon, 28 May 2018 21:18:02 +0800</pubDate>
+      
+      <guid>https://anywaywillgo.github.io/categories/alicewish/</guid>
       <description></description>
     </item>
     
