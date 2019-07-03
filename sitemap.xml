@@ -3,49 +3,62 @@
   
   <url>
     <loc>https://anywaywillgo.github.io/categories/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anywaywillgo.github.io/categories/comic/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anywaywillgo.github.io/categories/dc/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anywaywillgo.github.io/tags/dceased/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anywaywillgo.github.io/categories/dceased/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anywaywillgo.github.io/post/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anywaywillgo.github.io/tags/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://anywaywillgo.github.io/categories/translated/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://anywaywillgo.github.io/post/comic/translated/dc/dceased/issue-3/</loc>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://anywaywillgo.github.io/</loc>
+    <lastmod>2019-07-03T12:51:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -54,12 +67,6 @@
     <lastmod>2019-06-05T12:51:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://anywaywillgo.github.io/</loc>
-    <lastmod>2019-06-05T12:51:03+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
